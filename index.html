@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>survey form</title>
+</head>
+<body>
+
+<div class="header">
+   <h2 >FREE CODE CAMP SURVEY FORM</h2>
+</div>
+
+<div class="subheader">
+<h4>Thank you for taking your time to help us improve the platform</h4>
+</div>
+
+   <form action="processform.php" method="POST">
+
+       <section id="center">
+
+       <div class="container">
+
+        <div class="main">
+            <p>
+                <form>
+            <label class="label" for="Name" class="text color">Name</label><br/>
+            <input class="input" type="text" placeholder="Enter your name" id="name" required>
+        </form>
+            </p>
+        </div>
+   
+
+    <div class="main">
+        <p>
+        <label class="label" for="Email" class="text color">Email</label><br/>
+        <input class="input" type="text" placeholder="Enter your email" id="name" required>
+        </p>
+    </div>
+
+
+    <div class="main">
+        <p>
+        <label class="label"for="Age" class="text color">Age</label><br/>
+        <input class="input" type="text" placeholder="Age" id="name" required>
+        </p>
+    </div>
+
+ 
+     <div class="main"><p>
+          <label class="label"for="role" class="text color">Which option best describes your current role?</label><br/>
+    <select class ="input" name="select option"  id="select option" required>
+        
+       <option value="select current role">Select current role</option>
+       <option value="student">Student</option>
+       <option value="full time job">Full time job</option>
+       <option value="full time learner">Full time learner</option>
+       <option value="prefer not to say">Prefer not to say</option>
+       <option value="others">others</option>
+     </select>
+       
+        </p>
+    </div> 
+
+ 
+<div class="main">
+    <form>
+    <label class="label" for="Would you recommend freeCodeCamp to a friend?"> Would you recommend freeCodeCamp to a friend?</label><br/>
+    <input class="radio" type="radio" >Definitely<br/>
+    <input class="radio" type="radio" >Maybe<br>
+    <input class="radio"type="radio" >Not sure<br/>
+</form>
+</div>
+
+
+
+<div class="main">
+    <p>
+        <form>
+    <label class="label" for="favorite" class="text color">What is your favorite feature of freeCodeCam</label><br/>
+    <select class ="input" name="select option"  id="select option" required>
+        
+        <option value="select option">Select option</option>
+        <option value="select current role">Challenge</option>
+        <option value="Full time jobe">Project</option>
+        <option value="Full time learner">community </option>
+        <option value="Prefer not to say">Open source</option>
+        <option value="others">Others</option>
+       </select>
+    </form>
+    </p>
+</div>
+
+
+
+
+
+
+
+<div class="main">
+    <p>
+        <form>
+           <label  class="label"for="Would you recommend freeCodeCamp to a friend?">   What Would you like to see improved? (Check all that apply)</label><br/>
+            <input class="radio" type="checkbox"   >    Front-end Projects<br/>
+             <input class="radio"   type ="checkbox" >  Back-end Projects<br/>
+            <input class="radio"    type ="checkbox">   Data Visualizations<br/>
+            <input class="radio"   type ="checkbox">   Challenges<br/>
+            <input class="radio"  type="checkbox">    Open Source Community<br/>
+            <input class="radio"  type="checkbox">  Gitter help rooms<br/>
+            <input class="radio"  type="checkbox">   Videos<br/>
+            <input class="radio"  type="checkbox">    City Meetups<br/>
+            <input class="radio" type="checkbox">    Wiki<br/>
+            <input class="radio"   type="checkbox">   Forum<br/>
+            <input  class="radio"   type="checkbox">  Additional Courses<br/>
+        </form>
+    </p>
+</div>
+
+
+
+
+    <p>
+<label  class="label"for="message"> Any comments or suggestions?</label><br/>
+<textarea class="message" name="message" placeholder="Enter your message here......"></textarea><br/>
+</p>
+
+
+
+
+<div>
+<p>
+    <input class="submit" type="button" name="submit" id="Create Account" value="Submit">
+</p>
+</div>
+
+</div>
+</form>
+</section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+

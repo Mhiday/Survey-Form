@@ -1,0 +1,351 @@
+*{
+    box-sizing: border-box;
+}
+
+
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+   background-size: cover;
+  
+   background-image: url(./images/purple\ female\ developer.png);
+   background-attachment: fixed;
+}
+
+.container{
+    width: 43%;
+    height: 230vh;
+    background-color: rgba(32, 17, 17, 0.6) ;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  top: 20px;
+  padding: 15px;
+}
+.header{
+  text-align: center;
+  font-size: 23px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  color: aliceblue;
+  font-style: oblique;
+  
+ 
+ 
+}
+
+.subheader{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 100px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: rgb(53, 18, 66);
+ 
+}
+
+.label{
+    margin-left: 35px;
+    margin-top: 30px;
+    font-size: 21px;
+    padding-top: 20px;
+    color: white;
+
+}
+
+
+.input{
+    margin-left: 35px;
+    width: 520px;
+    padding: 15px;
+    bottom: 20px;
+    border: none;
+   border-radius: 5px;
+   margin-top: 8px;
+   font-size: 18px;
+
+}
+
+/* .radioandcheck{
+    margin-left: 35px;
+  margin-top: 8px;
+  transform: scale(20%);
+
+  
+} */
+
+
+.radio{
+    width:20px; 
+    height: 20px;
+    margin-left: 35px;
+    margin-top: 15px;
+  
+   
+}
+
+
+.main{
+    margin-top: 27px;
+    color:white;
+    font-size: 20px;
+    margin-bottom: 5px;
+   
+   
+}
+
+.message{
+    height: 250px;
+    
+    margin-left: 35px;
+    width: 520px;
+    border: none;
+    margin-top: 8px;
+    font-size: 17px;
+    border-radius: 3px;
+    
+    
+}
+
+
+
+.submit{
+ 
+   background-color: rgb(42, 218, 80);
+   margin-top: 20px;
+  width: 520px;
+  height: 50px;
+  border-radius: 5px;
+  margin-left: 35px;
+  border-style: none;
+  font-weight: bold;
+  color: white;
+  font-size: 18px;
+
+}
+
+.submit:hover{
+background-color:rgb(13, 156, 44) ;
+}
+
+
+@media  only screen and (max-width:414px){
+/* for mobiles (iphone 678 plus)*/
+.header{
+    font-size: 18px;
+}
+
+.subheader{
+    font-size: 12px;
+}
+
+.container{
+width: 352px;
+margin-top: 40px;
+margin-left: 30px;
+/* margin-left: 5px; */
+height: 1555px;
+
+}
+
+.main{
+    color:white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.label{
+    margin-left: 20px;
+    font-size: 17px;
+}
+
+.input{
+     margin-left: 20px;
+     width: 275px;
+     padding: 10px;
+     font-size: 15px;
+}
+
+.radio{
+    margin-left: 20px;
+    width: 15px;
+    height: 15px;
+}
+
+.message{
+    margin-left: 20px;
+    width: 275px;
+    font-size: 15px;
+   
+}
+
+.submit{
+    width: 275px; 
+    margin-left: 20px;
+}
+
+.submit:hover{
+    background-color:rgb(13, 156, 44) ;
+    }
+    
+    @media  only screen and (max-width:375px){ 
+ /* for mobiles (iphone 678) */
+ .header{
+    font-size: 16px;
+}
+
+.subheader{
+    font-size: 11.5px;
+}
+
+.container{
+width: 325px;
+margin-top: 40px;
+margin-left: 25px;
+/* margin-left: 5px; */
+height: 1555px;
+
+}
+
+.main{
+    color:white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.label{
+    margin-left: 14px;
+    font-size: 17px;
+}
+
+.input{
+     margin-left: 14px;
+     width: 267px;
+     padding: 10px;
+     font-size: 15px;
+}
+
+.radio{
+    margin-left: 14px;
+    width: 15px;
+    height: 15px;
+}
+
+.message{
+    margin-left: 14px;
+    width: 267px;
+    font-size: 15px;
+   
+}
+
+.submit{
+    width: 267px; 
+    margin-left: 14px;
+}
+
+.submit:hover{
+    background-color:rgb(13, 156, 44) ;
+    }
+    
+
+
+
+
+       @media  only screen and (max-width:375px){
+           
+       }
+ /* for mobiles (iphone x) */
+ .header{
+    font-size: 16px;
+}
+
+.subheader{
+    font-size: 11.5px;
+}
+
+.container{
+width: 325px;
+margin-top: 40px;
+margin-left: 25px;
+/* margin-left: 5px; */
+height: 1555px;
+
+}
+
+.main{
+    color:white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+
+.label{
+    margin-left: 14px;
+    font-size: 17px;
+}
+
+.input{
+     margin-left: 14px;
+     width: 267px;
+     padding: 10px;
+     font-size: 15px;
+}
+
+.radio{
+    margin-left: 14px;
+    width: 15px;
+    height: 15px;
+}
+
+.message{
+    margin-left: 14px;
+    width: 267px;
+    font-size: 15px;
+   
+}
+
+.submit{
+    width: 267px; 
+    margin-left: 14px;
+}
+
+.submit:hover{
+    background-color:rgb(13, 156, 44) ;
+    }
+    
+
+
+
+
+    }
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
